@@ -1,23 +1,12 @@
-.article {
-  &__main {
-    display: flex;
-    width: 1440px;
-  }
-
-  &__image {
-    min-width: 984px;
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
+.aside {
   &__content {
-    width: 360px;
-    height: 900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   &__logo {
-    margin-right: 9px;
+    margin-right: 9.6px;
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -26,6 +15,7 @@
   &__title {
     font-size: 20px;
     display: -webkit-box;
+    font-weight: 600;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -51,18 +41,36 @@
     line-height: 28px;
   }
 
+  &__form {
+    position: relative;
+  }
+
   &__form-password {
     padding-bottom: 20px;
   }
 
+  &__form-visable {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 8px;
+    right: 8px;
+  }
+
+  &__eyepass {
+    width: 16px;
+    height: 16px;
+    margin: 0 auto;
+  }
+
   &__form-text {
     font-family: "SF Pro Display", sans-serif;
-    font-weight: 400;
     font-size: 11px;
     line-height: 12px;
     letter-spacing: 0.3px;
     margin-left: 16px;
     margin-bottom: 8px;
+    color: #333333;
   }
 
   &__form-login {
@@ -74,9 +82,8 @@
     height: 48px;
     padding: 8px 8px 8px 16px;
     border-radius: 6px;
-    background-color: #808080;
-    border: none;
-    opacity: 75%;
+    background-color: #f2f2f2;
+    border: 0.5px solid #e5e5e5;
 
     &::placeholder {
       color: #4d4d4d;
@@ -84,11 +91,6 @@
       font-size: 15px;
       font-weight: 400;
       line-height: 20px;
-    }
-
-    &:focus {
-      border: #007aff;
-      outline: none;
     }
   }
   &__form-text {

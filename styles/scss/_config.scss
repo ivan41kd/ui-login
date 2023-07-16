@@ -15,8 +15,6 @@ body {
   color: #1a1a1a;
   background: #fff;
   line-height: 28px;
-  width: 100%;
-  max-width: 1440px;
 }
 
 ol,
@@ -31,6 +29,10 @@ img {
 button {
   cursor: pointer;
   border: none;
+}
+
+button:focus{
+  border: 2px solid lightskyblue;
 }
 
 input {
