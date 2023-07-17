@@ -29,17 +29,22 @@ img {
 button {
   cursor: pointer;
   border: none;
-}
 
-button:focus{
-  border: 2px solid lightskyblue;
-}
-
-input {
-  outline: none;
+  &:focus {
+    outline: 3px solid lightblue;
+  }
 }
 
 a {
   text-decoration: none;
   color: inherit;
+    &:focus {
+    outline: 3px solid lightblue;
+  }
+}
+
+input{
+    &:focus {
+    outline: 3px solid lightblue;
+  }
 }
