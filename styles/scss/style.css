@@ -96,7 +96,7 @@ input:focus {
 }
 .aside__main-title {
   display: flex;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .aside__subtitle {
   margin-bottom: 24px;
@@ -115,7 +115,7 @@ input:focus {
   position: relative;
 }
 .aside__form-password {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 .aside__form-visable {
   position: absolute;
@@ -139,7 +139,7 @@ input:focus {
   color: #333333;
 }
 .aside__form-login {
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .aside__form-field {
   width: 360px;
@@ -176,6 +176,7 @@ input:focus {
   display: flex;
   flex-direction: column;
   width: 360px;
+  margin-bottom: 228px;
 }
 .aside__signinblue {
   padding: 10px 24px;
@@ -274,9 +275,6 @@ input:focus {
   padding: 48px 48px 48px;
 }
 
-.footer {
-  margin-top: 228px;
-}
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
